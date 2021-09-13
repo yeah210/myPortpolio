@@ -1,0 +1,107 @@
+
+#home{
+  background-image: url(../img/lemon3.jpg);
+}
+h1{
+  color: #fff;
+  text-shadow: 0px 1px 3px #000;
+  font-weight: bold;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+
+ 
+
+
+#site-border-bottom, #site-border-left, #site-border-right, #site-border-top{background: #fff;}
+
+@keyframes yeashi2{
+  0% {
+    transform: translateY(-500px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes yeashi{
+  0% {
+    transform: translateY(500px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+.yeashi2{
+  animation-name: yeashi2;
+  animation-duration: 5s;
+}
+
+.img-responsive{
+  animation-name: yeashi;
+  animation-duration: 2s;
+}
+
+.yeashi2 p{
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+.timeline-event-copy h3{
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.timeline-event-copy h4{
+  letter-spacing: normal;
+}
+
+#counter{margin-top: 40px;}
+
+.img-responsive{
+  box-shadow: 2px 20px 10px #ccc;
+
+}
+
+
+/* .timeline-event-copy h3{
+  font-weight: 300;
+} */
+
+
+
+/* skill */
+.counter-value::before{
+  display: block;
+  font-family: xeicon!important;
+  margin-bottom: 30px;
+  
+}
+
+
+.counter-value:nth-child(1)::before{content: "\ec01"; }
+.counter-value:nth-child(2)::before{content: "\ebe7";}
+.counter-value:nth-child(3)::before{content: "\eb86";}
+.counter-value:nth-child(4)::before{content: "\eb83";}
+.counter-value:nth-child(5)::before{content: "\eb87";}
+
+
+/* 팝업창 close */
+.animatedModal-1-on .close-popup-modal,.animatedModal-2-on .close-popup-modal ,.animatedModal-3-on .close-popup-modal ,.animatedModal-4-on .close-popup-modal ,.animatedModal-5-on .close-popup-modal ,.animatedModal-1-on .close-popup-modal ,.animatedModal-6-on .close-popup-modal ,.animatedModal-7-on .close-popup-modal ,.animatedModal-1-on .close-popup-modal ,.animatedModal-8-on .close-popup-modal ,.animatedModal-9-on .close-popup-modal ,.animatedModal-10-on .close-popup-modal {
+  opacity: 1;
+}
+
+.goSite{
+  display: block;
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: #5d7ba8;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+
