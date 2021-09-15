@@ -80,7 +80,7 @@
         <div class="container">
             <div class="col-md-6 yeashi2" data-aos="fade-up">
                 <h4>01</h4>
-                <h1 class="size-50">About me</h1>
+                <h1 class="size-50 ">About me</h1>
                 <div class="h-50 about_txt"></div>
                 <p>안녕하세요!<br>
                     톡 튀는 아이디어를 가진,<br>
@@ -118,9 +118,9 @@
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">Education</p>
+                            <p class="timeline-event-thumbnail Montserrat">Education</p>
                             <h3>부산IT교육센터<br>
-                                 반응형 웹퍼블리싱&웹디자인 수료</h3>
+                                 반응형 웹퍼블리싱 & 웹디자인 수료</h3>
                             <h4>2021.4 - 2021.10</h4>
                             <!-- <p><strong>Projektmanagement mit Scrum</strong>
                                 <br>Ständiges Verbessern des agilen Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und BrowserStack.</p> -->
@@ -129,19 +129,19 @@
                     <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">License</p>
+                            <p class="timeline-event-thumbnail Montserrat">License</p>
                             <h3>웹디자인 기능사</h3>
-                            <h4>2021.10 취득예정</h4>
+                            <h4>2021.10</h4>
                             <!-- <p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im dpunkt.verlag.</p> -->
                             <h3>컴퓨터 그래픽스 기능사</h3>
-                            <h4>2021.10 취득예정</h4>
+                            <h4>2021.10</h4>
                             <!-- <p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im dpunkt.verlag.</p> -->
                         </div>
                     </li>
                     <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">Skills</p>
+                            <p class="timeline-event-thumbnail Montserrat">Skills</p>
                             <!-- <h3>konplan gmbh</h3>
                             <h4>IT-Consultant</h4>
                             <p><strong>Systemarchitektur, Consulting</strong>
@@ -152,13 +152,50 @@
 
 
                              <!-- 시도 -->
-                         <div id="counter">
-                            <div class="counter-value" data-count="90" data-desc="PS">0</div>
-                            <div class="counter-value" data-count="90" data-desc="AI">0</div>
-                            <div class="counter-value" data-count="80" data-desc="HTML5">0</div>
-                            <div class="counter-value" data-count="80" data-desc="css3">0</div>
-                            <div class="counter-value" data-count="70" data-desc="jquery">0</div>
-                        </div>    
+                            <div id="counter" class="clear">
+                                <div class="graph_box col-md-6">
+                                    <div class="stack_wrap1">
+                                        <div class="graph stack1 Montserrat">
+                                            <span style="width:90%;">Ps  90%</span>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="stack_wrap2">
+                                        <div class="graph stack2 Montserrat">
+                                            <span style="width:90%;">Ai  90%</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="stack_wrap3">
+                                        <div class="graph stack3 Montserrat">
+                                            <span style="width:75%;">Id  75%</span>
+                                        </div>
+                                    </div>
+
+                                </div><!--.graph_box-->
+
+                                <div class="graph_box col-md-6">
+                                    <div class="stack_wrap4">
+                                        <div class="graph stack4 Montserrat">
+                                            <span style="width:80%;">Html5  80%</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="stack_wrap5">
+                                        <div class="graph stack5 Montserrat">
+                                            <span style="width:80%;">Css3  80%</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="stack_wrap6">
+                                        <div class="graph stack6 Montserrat">
+                                            <span style="width:65%;">Jquery 65%</span>
+                                        </div>
+                                    </div>
+                                </div><!--.graph_box-->
+                               
+                                
+                            </div>    
                         </div>
 
 
@@ -194,11 +231,10 @@
                             <nav class="categories">
                                 <ul class="portfolio_filter">
                                     <li><a href="" class="active" data-filter="*">All</a></li>
-                                    <li><a href="" data-filter=".website">Website</a></li>
+                                    <li><a href="" data-filter=".website">Web Publishing</a></li>
                                     <li><a href="" data-filter=".logo">Logo</a></li>
                                     <li><a href="" data-filter=".graphics">Graphics</a></li>
                                     <li><a href="" data-filter=".ads">Advertising</a></li>
-                                    <li><a href="" data-filter=".fashion">Fashion</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -222,21 +258,22 @@
                             </div>
                             <!-- end single work -->
                             
+                            
                             <!-- single work -->
                             <div class="col-md-6 col-sm-6 ads website">
-                                <a id="demo02" href="#animatedModal-2" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                                <a id="demo02" href=" https://yeah210.github.io/project2/" class="portfolio_item">
+                                     <img src="img/portfolio/10.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> 
-                                                <span>Incheon Airport<br>사이트 리디자인</span> 
-                                                <em>View detail</em> 
+                                                <span>Blue bottle<br>사이트 리디자인</span> 
+                                                <em>Go to site</em> 
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <!-- end single work -->
-                            
+                            <!-- end single work --> 
                             
                             <!-- single work -->
                             <div class="col-md-6 col-sm-6 logo">
@@ -308,7 +345,7 @@
                             <!-- end single work -->
                             
                              <!-- single work -->
-                             <div class="col-md-6 col-sm-6 website">
+                             <div class="col-md-6 col-sm-6">
                                 <a id="demo08" href="#animatedModal-8" class="portfolio_item"> <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
@@ -336,6 +373,23 @@
                                 </a>
                             </div>
                             <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-6 col-sm-6 ads website">
+                                <a id="demo10" href="#animatedModal-10" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> 
+                                                <span>Incheon Airport<br>사이트 리디자인</span> 
+                                                <em>View detail</em> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+
                         </div>
                         <!-- end portfolio_container -->
                     </div>
@@ -420,16 +474,12 @@
                 </div>
             </div>
         </div>
-
-      
-
-
     </div>
 
     <!--DEMO02-->
-    <div id="animatedModal-2" class="popup-modal">
+    <!-- <div id="animatedModal-2" class="popup-modal"> -->
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-        <div id="btn-close-modal" class="close-animatedModal-2 close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <!-- <div id="btn-close-modal" class="close-animatedModal-2 close-popup-modal"> <i class="ion-close-round"></i> </div>
         <div class="clearfix"></div>
         <div class="modal-content">
             <div class="container">
@@ -448,11 +498,7 @@
                 </div>
             </div>
         </div>
-
-      
-
-
-    </div>
+    </div> -->
 
     
 
@@ -703,6 +749,19 @@
         };
 </script>
 
+<script>
+    $(document).ready(function(){//시작
+        //스크롤 닿으면 show
+        $(window).scroll(function(){
+        var location = $(window).scrollTop(); //스크롤의 현재 위치
+        
+        if(location >= $("#experience").offset().top){
+          $(".graph").show();
+        }
+
+      });
+    });//끝
+</script>
   
 
 </body>
