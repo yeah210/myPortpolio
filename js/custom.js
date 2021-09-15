@@ -110,10 +110,10 @@ $(document).ready(function () {
     $("#demo01").animatedModal({
         modalTarget: 'animatedModal-1'
     });
-    //demo 02
-    $("#demo02").animatedModal({
-        modalTarget: 'animatedModal-2'
-    });
+    // //demo 02
+    // $("#demo02").animatedModal({
+    //     modalTarget: 'animatedModal-2'
+    // });
     //demo 03
     $("#demo03").animatedModal({
         modalTarget: 'animatedModal-3'
@@ -135,6 +135,9 @@ $(document).ready(function () {
     });
     $("#demo09").animatedModal({
         modalTarget: 'animatedModal-9'
+    });
+    $("#demo010").animatedModal({
+        modalTarget: 'animatedModal-10'
     });
 
 

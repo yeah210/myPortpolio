@@ -1,3 +1,9 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+
 
 #home{
   background-image: url(../img/lemon3.jpg);
@@ -10,8 +16,17 @@ h1{
   font-weight: 900;
   line-height: 1.4;
 }
+.clear{
+  content: '';
+  display: block;
+  clear: both;
+}
 
-
+.Montserrat{
+  font-family: 'Montserrat',sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
  
 
 
@@ -55,14 +70,13 @@ h1{
   letter-spacing: normal;
 }
 .timeline-event-copy h4{
-  letter-spacing: normal;
+  letter-spacing: 4px;
 }
 
 #counter{margin-top: 40px;}
 
 .img-responsive{
   box-shadow: 2px 20px 10px #ccc;
-
 }
 
 
@@ -72,26 +86,116 @@ h1{
 
 
 
-/* skill */
-.counter-value::before{
+/* skill 아이콘 */
+.graph_box{position: relative;}
+
+/* .stack_wrap1{
+  position: absolute;
+  top:0; left:100px;
+
+} */
+.graph_box > div{
+  padding-left: 40px;
+  position: relative;
+}
+
+.stack_wrap1::before,.stack_wrap2::before,.stack_wrap3::before,.stack_wrap4::before,.stack_wrap5::before,.stack_wrap6::before{
   display: block;
   font-family: xeicon!important;
-  margin-bottom: 30px;
-  
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  top:0; left: 0;
 }
 
 
-.counter-value:nth-child(1)::before{content: "\ec01"; }
-.counter-value:nth-child(2)::before{content: "\ebe7";}
-.counter-value:nth-child(3)::before{content: "\eb86";}
-.counter-value:nth-child(4)::before{content: "\eb83";}
-.counter-value:nth-child(5)::before{content: "\eb87";}
+.stack_wrap1::before{content: "\ec01";}
+.stack_wrap2::before{content: "\ebe7";}
+.stack_wrap3::before{content: "\ebe7";}
+.stack_wrap4::before{content: "\eb86";}
+.stack_wrap5::before{content: "\eb83";}
+.stack_wrap6::before{content: "\eb87";}
 
 
 /* 팝업창 close */
 .animatedModal-1-on .close-popup-modal,.animatedModal-2-on .close-popup-modal ,.animatedModal-3-on .close-popup-modal ,.animatedModal-4-on .close-popup-modal ,.animatedModal-5-on .close-popup-modal ,.animatedModal-1-on .close-popup-modal ,.animatedModal-6-on .close-popup-modal ,.animatedModal-7-on .close-popup-modal ,.animatedModal-1-on .close-popup-modal ,.animatedModal-8-on .close-popup-modal ,.animatedModal-9-on .close-popup-modal ,.animatedModal-10-on .close-popup-modal {
   opacity: 1;
 }
+
+.timeline-event:nth-child(3){
+  height: 300px;
+}
+
+/* 그래프 */
+.graph{
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+  margin: 0 0 30px;
+  display: none;
+  border-radius: 3px;
+}
+.graph span{
+  display: block;
+  padding: 0 10px;
+  height: 20px;
+  color: #fff;
+  background-color: #5d7ba8;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 3px 0 0 3px;
+}
+.graph.stack1 span{
+  animation: stack 2s 1;
+}
+.graph.stack2 span{
+  animation: stack2 2s 1;
+}
+.graph.stack3 span{
+  animation: stack3 2s 1;
+}
+.graph.stack4 span{
+  animation: stack4 2s 1;
+}
+.graph.stack5 span{
+  animation: stack5 2s 1;
+}
+.graph.stack6 span{
+  animation: stack6 2s 1;
+}
+
+
+@keyframes stack{
+  0%{width: 0; color: rgba(255,255,255,0);}
+  40%{color: rgba(255,255,255,1);}
+  100%{width: 90%;}
+}
+@keyframes stack2{
+  0%{width: 0; color: rgba(255,255,255,0);}
+  40%{color: rgba(255,255,255,1);}
+  100%{width: 90%;}
+}
+@keyframes stack3{
+  0%{width: 0; color: rgba(255,255,255,0);}
+  40%{color: rgba(255,255,255,1);}
+  100%{width: 75%;}
+}
+@keyframes stack4{
+  0%{width: 0; color: rgba(255,255,255,0);}
+  40%{color: rgba(255,255,255,1);}
+  100%{width: 80%;}
+}
+@keyframes stack5{
+  0%{width: 0; color: rgba(255,255,255,0);}
+  40%{color: rgba(255,255,255,1);}
+  100%{width: 80%;}
+}
+@keyframes stack6{
+  0%{width: 0; color: rgba(255,255,255,0);}
+  40%{color: rgba(255,255,255,1);}
+  100%{width: 65%;}
+}
+
 
 .goSite{
   display: block;
@@ -102,6 +206,12 @@ h1{
   text-align: center;
   line-height: 50px;
 }
+
+
+#demo02{
+  background: url(../img/portfolio/10.jpg) no-repeat center / cover;
+}
+
 
 
 
