@@ -22,12 +22,25 @@ h1{
   clear: both;
 }
 
-.Montserrat{
+.Montserrat, h4, .modal-content h2{
   font-family: 'Montserrat',sans-serif;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: 400;
 }
- 
+.nav_num{
+  color: #5d7ba8;
+  font-weight: 700;
+  font-size: 20px;
+} 
+.hi_txt{
+  font-size: 16px !important;
+}
+.name span{
+  color: #5d7ba8;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
 
 
 #site-border-bottom, #site-border-left, #site-border-right, #site-border-top{background: #fff;}
@@ -68,6 +81,8 @@ h1{
 .timeline-event-copy h3{
   line-height: 1.5;
   letter-spacing: normal;
+  font-size: 18px;
+  font-weight: 300;
 }
 .timeline-event-copy h4{
   letter-spacing: 4px;
@@ -111,7 +126,12 @@ h1{
 
 .stack_wrap1::before{content: "\ec01";}
 .stack_wrap2::before{content: "\ebe7";}
-.stack_wrap3::before{content: "\ebe7";}
+.stack_wrap3::before{
+  content: '';
+  background: url(../img/icon_id.png) no-repeat center / cover;
+  width: 25px; height: 25px;
+  margin-left: 2px;
+}
 .stack_wrap4::before{content: "\eb86";}
 .stack_wrap5::before{content: "\eb83";}
 .stack_wrap6::before{content: "\eb87";}
@@ -126,11 +146,16 @@ h1{
   height: 300px;
 }
 
-/* 그래프 */
+/* skill */
+#skill{margin-top: 70px ;}
+#skill h1{margin-bottom: 50px;}
+
+
 .graph{
   width: 100%;
   height: 20px;
   background-color: #fff;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
   margin: 0 0 30px;
   display: none;
   border-radius: 3px;
@@ -144,6 +169,7 @@ h1{
   font-size: 12px;
   line-height: 20px;
   border-radius: 3px 0 0 3px;
+  text-align: right;
 }
 .graph.stack1 span{
   animation: stack 2s 1;
@@ -213,5 +239,15 @@ h1{
 }
 
 
+/* contact */
 
+
+
+
+.col-md-offset-2 {
+  margin-left: 5%;
+}
+.col-md-8 {
+  width: 90%;
+}
 
